@@ -1,0 +1,107 @@
+XML- Extensible MArkup Language
+It is used to store the data and transport data
+creating document with structured informations
+
+Tags are not predefined
+User define tags
+
+
+Difference bet XML and HTML
+html comes with predefined tags
+ HTml is used for display data
+XML is used for store and carrying data
+
+XML Prolog - Structural element
+<?XML version="1.0" encoding="UTF-8"?>
+
+Element - <hello> </hello>- case sensitive
+
+Empty element- <city/>
+
+XML Attribute: Name-Value pairs that occur inside start tag after element name
+
+XML References:
+&lt less than
+&gt greater than
+&amp apersand
+&apos apostrophe
+&quot Double Quotes
+
+XML visualizes data in the form of tree
+
+There is a root element (Parent-child)
+
+
+Namespaces provide a way to identify eleemnts uniquely
+
+Naming conflicts can easily be avoided using prefix
+
+<h:table>
+
+</h:table>
+
+When using prefixes in XML, a namespace for the prefix must be defined
+
+The namespace can be defined by an xmlns attribute in the start tag of an element.
+
+<h:table xmlns:h="https://www.google.com">
+</h:table>
+
+------------------------------
+XPATH:
+XPATH is used to navigate through elements and attributes in xml document
+
+/rootnode/child
+
+/bookstore/book[1] Selects 1st book from XML
+/bookstore/book[last()]
+/bookstore/book[position()>3]
+
+//title[@lang="en"] selects title with en
+
+
+XML Schema describes structure of XML document
+
+<xs:element name="note">
+
+<xs:complexType>
+  <xs:sequence>
+    <xs:element name="to" type="xs:string"/>
+    <xs:element name="from" type="xs:string"/>
+    <xs:element name="heading" type="xs:string"/>
+    <xs:element name="body" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
+
+</xs:element>
+
+The Schema above is interpreted like this:
+
+<xs:element name="note"> defines the element called "note"
+<xs:complexType> the "note" element is a complex type
+<xs:sequence> the complex type is a sequence of elements
+<xs:element name="to" type="xs:string"> the element "to" is of type string (text)
+<xs:element name="from" type="xs:string"> the element "from" is of type string
+<xs:element name="heading" type="xs:string"> the element "heading" is of type string
+<xs:element name="body" type="xs:string"> the element "body" is of type string
+
+One of the greatest strengths of XML Schemas is the support for data types:
+
+It is easier to describe document content
+It is easier to define restrictions on data
+It is easier to validate the correctness of data
+It is easier to convert data between different data types
+
+
+XSLT: extensible Stylesheet Language transformation is used for styling xml document
+
+
+XLink is used to create hyperlinks in XML documents.
+
+ <homepage xlink:type="simple" xlink:href="https://www.w3schools.com">Visit W3Schools</homepage>
+
+
+
+
+
+

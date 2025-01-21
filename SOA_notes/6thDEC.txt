@@ -1,0 +1,7 @@
+Tokenization:
+
+Using tokenization we can provide host, port number dynamically this is useful when we are deploying in another server
+
+Steps:
+1 In composite file on top bar there is Binding URL tokenizer on left side you can define var
+2 On EM

@@ -1,0 +1,55 @@
+to add db 
+wind-database-ide conn-conn name-localdb-conn type-oracle jdbc-username-sys-pass-admin
+
+create table-
+sql-worksheet
+
+
+console:
+Services-data sources
+new-name-localdb-jndiname-jdbc/localhost -dbtype-oracle
+dbdriver-default-uncheck support global trans-dbname-xe-hostname-localhost-usr-sys-pass-admin
+
+test config
+sys as sysdba
+
+jndiname-eis/db/local_db
+
+
+path-dbplan.xml
+
+
+select-import
+
+use xa datasource for
+
+-----------------------------------
+
+DB rows trans-unlimited15:45 20-11-2024
+
+maxrasize=10
+
+
+JMS-java message service
+JMS-adapter
+
+queue-fifo
+msg in queue can be picked up by an user one by one it will deleted
+
+topic-gets subscriber user gets copy of msg
+
+service-msg-jms-soajms-new-queue-name-soatraining-jndi-jms/queue/training-select-subdeploy-finish
+
+soajmsmodule
+name-soatrainingjms
+
+CONNECTION FACTORY jndi-jms/conn/training_jms
+
+	
+
+JMS JNDI- eis/jms/soa_training
+
+
+
+
+

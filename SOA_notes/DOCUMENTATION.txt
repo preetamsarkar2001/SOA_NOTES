@@ -1,0 +1,13 @@
+ellipse-start/stop/reply
+rect-operation 
+kite -conditions
+
+
+documentation 
+
+1 create flow diagram
+2 mention all schema files used with root element
+
+3 Request Payload, or test payload/sample input (Success input)
+
+4 WSDL URL

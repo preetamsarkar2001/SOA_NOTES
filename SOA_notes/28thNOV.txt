@@ -1,0 +1,14 @@
+FILE ADAPTER TASK:
+
+READING A FILE FROM DIRECTORY AND WRITING INTO DATABASE USING FILE TRIGGER
+
+create file adapter read service - Provide directory 
+Provide format eg *.txt, polloing duration and schema-use trigger file directory and name to trigger operation
+
+Create database adapter Insert/Merge Operation - provide connection-select operation and finish
+
+create BPEL PROCESS receive input from ReadService adapter transform the input to invoke of insert/merge adapter to insert records into database.
+
+to delete trigger file you can create synchronous read operation that will delete the trigger file to stop the process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,16 @@
+Exception Handling using try block and catch block
+
+BPEL XPATH EXTE FUNC
+ ora:getFaultAsString() for error resolve
+
+status in assign 2
+
+Fault Chooser in edit catch in catch
+
+Throw is used for custom error raising
+Rethrow throws repeated error
+
+
+scope-localscope
+exit activity
+

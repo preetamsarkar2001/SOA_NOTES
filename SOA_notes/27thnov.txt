@@ -1,0 +1,16 @@
+MDS-Metadata Repository
+two types
+1 runtime- used after deployment
+2 designtime -development
+
+
+Resources->MDS
+
+DVM
+Fault Policy
+
+
+Test Case-testsuites
+
+
+

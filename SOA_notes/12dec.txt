@@ -1,0 +1,14 @@
+Calling Stored Procedure
+
+Create a procedure
+
+create or replace procedure procedure_name(empid IN int,empname OUT varchar)
+IS 
+BEGIN
+select EMPNAME INTO empname from where EMPID=empid;
+END;
+
+
+USe this proceduere in DB adapter by selecting stored procedure and finish 
+------------------------------------------------------------------------------------------------------------------------------------
+QueryByExample will generate query automatically based on business logic  

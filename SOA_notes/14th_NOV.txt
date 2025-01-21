@@ -1,0 +1,41 @@
+To list Dynamically go to invoke-properties-click on add prop-jca.filename
+
+Chunk read reads data in chunks in some mb
+
+specify mb and no of rec be 2
+chunkreadinp_dir-Logical name
+
+
+Take for each in bpel
+
+While loop-creat var in string
+$var!="false"
+
+
+assign dummy var as true
+
+prop-from-jca.file.LineNumber
+
+
+jca.file.LineNUmber
+
+assign2 colvalue=1
+
+assign3-linenumber+2
+
+jca.file.rejectedreason-to handle read failed ops
+
+Empty activity is used to pass the block like pass keywords in python.
+
+
+Mediator is lightweight component
+its used to route request from one source to other 
+
+SYnc template->
+Routing rules
+
+Creaye web service
+
+assignment create service soap using wsdl of other service
+
+

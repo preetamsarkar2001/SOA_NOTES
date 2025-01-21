@@ -1,0 +1,27 @@
+SUBPROCESS
+SUBPROCESS is a reusable unit of logic that encapsulates a portion of a business process. It allows you to modularize and simplify complex processes by breaking them down into smaller, manageable parts.
+
+TYPES
+1 INLINE SUBPROCESS
+It is used within the same BPEL process
+2. Standalone Subprocess can be used across multiple BPEL process within the same composite
+
+to create inline subprocess right click on scope to create subprocess of any logic which can be used in the same bpell as a compononent
+
+In standalone subprocess there are two imp terms
+1 Copy by Value - The variables of BPEL will not be updated it can be only used in input variables
+2 Copy by reference- the variable off BPEL will be updated and can be used in input as well as output variables
+
+
+To create standalone subprocess right click to create a subprocess in composite file give desired name and write logic directly,
+In main BPEL you can call that subprocess using the component and assign variables of main BPEL to subprocess for input variable use copy by value and for output variable use copy by reference by unchecking the check box
+
+Copy by value donot update the variables of subprocess.
+copy  y reference updates both subprocess and main process.
+
+
+REST- To create REST service right click and select rest adapter input the endpoint URL or (resource path) you can create method and variables in rest specify json or xml
+
+
+
+WADL, or Web Application Description Language, is an XML-based format used to describe RESTful web services. It serves a similar purpose for REST as WSDL (Web Services Description Language) does for SOAP services.

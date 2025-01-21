@@ -1,0 +1,37 @@
+XA and non xa
+
+xa transaction-atomic fully complete or not at all
+
+DB,JMS,AQ,MQ adapter are atomic transactional
+
+file/ftp are non transc
+
+Topic----
+
+oracle wss_token_policy for securing inbound services
+
+client policy used for securing client services/call services
+
+
+------------------------------------------
+Timeout-
+1.JTA-server timeout,
+2.SynaxWaitTimeout-Sync services uses this
+3.BPEL infra Bean timeout
+
+Pick Activity:
+is used to take input from multiple service as starting point.
+
+Flow Activity:
+is used to call multiple services simultaneously.
+
+Email Activity:
+
+
+Dehydrate Activity: saving state of current instance avoid rollsback explicit commiit
+
+
+<tns:test xmlns:tns="Mr">Mr</tns:test>
+
+
+Mediators are used to routing of webservices or transformation

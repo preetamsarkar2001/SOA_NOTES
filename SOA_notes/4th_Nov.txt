@@ -1,0 +1,136 @@
+SOA is architectural style which is set of principle and practices for modeling enterprise solutions as services or microservice
+which has following attributes
+
+1 standaraized
+2 Loosely coupled
+3 reusable
+
+requirements-design
+
+Oracle SOA Suite:
+
+XML is mostly used in these tools.
+1 BPEL- Buisness process execution language- Developed in springboot mostly used in XML.
+
+2 Oracle Service Bus
+
+3 BPM
+
+4 AIA
+
+5 Oracle B2B- EDI format
+
+6 Oracle MFT- File transfeer
+
+7 Oracle BAM- reporting
+
+IDE- Oracle JDeveloper
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+CMD:
+
+Microsoft Windows [Version 10.0.26100.2033]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>set JAVA_HOME=C:\Java\jdk1.8.0_212
+
+C:\Windows\System32>set PATH=C:\Java\jdk1.8.0_212\bin
+
+C:\Windows\System32>cd C:\Users\Admin\Downloads\SOAENV
+
+C:\Users\Admin\Downloads\SOAENV>java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32          use a 32-bit data model if available
+    -d64          use a 64-bit data model if available
+    -server       to select the "server" VM
+                  The default VM is server.
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A ; separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  Warning: this feature is deprecated and will be removed
+                  in a future release.
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+
+C:\Users\Admin\Downloads\SOAENV>java -jar fmw_12.2.1.4.0_soa_quickstart.jar
+Launcher log file is C:\Users\Admin\AppData\Local\Temp\OraInstall2024-11-04_11-41-42AM\launcher2024-11-04_11-41-42AM.log.
+Extracting the installer . . . . . . . . . . . . . . . . Done
+Checking if CPU speed is above 300 MHz.   Actual 2496    Passed
+Checking monitor: must be configured to display at least 256 colors.   Actual 4294967296    Passed
+Checking swap space: must be greater than 512 MB    Passed
+Checking if this platform requires a 64-bit JVM.   Actual 64    Passed (64-bit not required)
+Checking temp space: must be greater than 300 MB.   Actual 373425 MB    Passed
+Preparing to launch the Oracle Universal Installer from C:\Users\Admin\AppData\Local\Temp\OraInstall2024-11-04_11-41-42AM
+Log: C:\Users\Admin\AppData\Local\Temp\OraInstall2024-11-04_11-41-42AM\install2024-11-04_11-41-42AM.log
+cLogs successfully copied to C:\Program Files\Oracle\Inventory\logs.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Application Server- where we deploy services
+web server- Acts as bridge between outside traffic and application server
+oracle weblogic server- which is application server that oracle uses
+
+
+go to window applicationserver on left side expand right click on start server instance
+
+
+Create new project
+exposed services- get data
+
+
+Returns the concatenation of its string parameters. Usage: concat(string1 as string, string2 as string, ...) Example: concat("first"," ","name") returns "first name"
+
+
+
+To create new application go to
+File->Application->SOA Project->Give Application Name-> Specify Directory ->Then start from BPEL Process-> give name to process-> Select synchronous template
+
+
+TO start application server go to windows application server -> On left hand click on start server instance -> put password -> click OK
+
+
+on weblogic 
+under domain structure ->env->servers->control where you can shut server
+
+go to localhost 7101 em on left side 3 bars click on that expand soa click on soa infra go to deployed composite to test your service
+

@@ -1,0 +1,31 @@
+XSD : XML Schema Definition
+Defines data type, assign default values and defining a proper format of document
+
+
+XML document std:
+begin with dec
+root ele
+start and end tags
+
+File ADapters:
+Right click on external reference open file adapter
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+READING FILE:
+
+Write name -> next-> File JNDI used for connecting remote server->operation-> list files -> navigate to doc->uncheck recursively 
+Include files with name pattern *.*
+
+connect with BPEL component
+go to bpel choose invoke activity to invoke file activity double click to choose partner link and input and output variable specify it
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+WRITING FILE STEPS:
+Create XSD
+Create BPEL Process
+GO to composite file right click on external references give file name next select file operation-> specify the directory where you want to write the file and give the name of the file->Provide the URL to the XSD File->Finish 
+INVOKE ACTIVITY: Select Partner Link and the input variable.
+
+---------------------------------------------------------------------------------------------------------------------------------------------

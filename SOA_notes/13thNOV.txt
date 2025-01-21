@@ -1,0 +1,30 @@
+File Adapter
+logical name
+Test%yymmdd%.txt
+
+In native format builder used for to create schema
+Give name
+type-delimited
+
+Specify the sample file
+
+multiple record of single typ
+
+ns-
+
+give path in property 
+
+
+Use sync read logic namw- directory-
+
+create file a for list file
+
+Add catch under it assign where the output var is concat with msg and faultstring func
+
+
+Native Builder
+Give name-delimiter-give sample file-multiple rec of single type-give target namespace-as standard give schemas.tekgeminus.com -give root ele of schema-enter name that will represent data-use field names as first record
+
+After making write adap give path in composite.xml in property element
+
+

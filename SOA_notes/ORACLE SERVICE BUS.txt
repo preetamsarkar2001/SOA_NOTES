@@ -1,0 +1,9 @@
+ORACLE SERVICE BUS
+
+Pipline template defines pattern of message flow
+
+We can create pipeline in  jdev
+
+Proxy service-exposed service to outer world
+
+Pipeline-business logic

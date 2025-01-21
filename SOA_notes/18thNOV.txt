@@ -1,0 +1,24 @@
+JCA file can be used to configure properties
+
+
+MOVE-SYNCREAD-PHYSICSALPATH-TEST.TXT-NATIVESCHEMA-JOIN MEDIATOR SYNC REEAD-JCA OF ADPTER SYNCREAD-SURCE DIREC-TARGET
+
+
+FTP-
+File Transfer Protocol
+
+Customize-exclude-ftpadapter-config-outbound-newjndi-name-eis/ftp/soatraining
+
+HOST- test.rebex.net press enter
+
+password-password 
+port-22(SFTP)
+
+Username-demo
+
+usesftp-true
+
+
+Update ftpadapter in deployment not redploy
+
+JNDI-CONNECTION CONFIG

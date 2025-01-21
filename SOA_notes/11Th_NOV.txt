@@ -1,0 +1,22 @@
+Read is inbound process-pulling data
+Chunk read is outbound process
+
+
+Webservice are webapp component
+
+
+WSDL-web service description language
+is xml based lang for describing web service
+
+Abstarct wsdl-doent have binding
+
+SOAP Simple object access protocol-XML Based protocol for accessing web service
+
+any service which takes more than 60 secs is async process
+
+2ports for async and 1 for sync
+
+One way template has no response has 1 port
+
+
+right click insert http 
